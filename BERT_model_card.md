@@ -5,7 +5,7 @@ language: en
 license: cc-by-4.0
 tags:
 - text-classification
-repo: https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?usp=drive_link
+repo: https://github.com/dain20000222/Author_verification
 
 ---
 
@@ -13,8 +13,10 @@ repo: https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?u
 
 <!-- Provide a quick summary of what the model is/does. -->
 
-This model employs a BERT-based approach for authorship verification, determining if two text samples are authored by the same person. 
-Utilizing the inherent language understanding capabilities of BERT, coupled with distance metric, the model provides a nuanced assessment of authorship.
+
+    This model employs a BERT-based approach for authorship verification, determining if two text samples are authored by the same person. 
+Utilizing the inherent language understanding capabilities of BERT, coupled with cosine similarity measures, the model provides a nuanced assessment of authorship.
+    
 
 
 ## Model Details
@@ -23,10 +25,12 @@ Utilizing the inherent language understanding capabilities of BERT, coupled with
 
 <!-- Provide a longer summary of what this model is. -->
 
-We fine-tuned a distilbert-base-uncased model to classify pairs of texts for authorship verification. 
+
+    We fine-tuned a distilBERT Base model to classify pairs of texts for authorship verification. 
 The model encodes texts to generate embeddings, which are then compared for similarity. 
 A sigmoid activation function is applied to the output of a dense layer to provide a similarity score.
 This model is based upon a BERT model that was fine-tuned on 60K pairs of  training text data.
+    
 
 - **Developed by:** Da In Kim and Minjun Choi
 - **Language(s):** English
@@ -50,7 +54,7 @@ This model is based upon a BERT model that was fine-tuned on 60K pairs of  train
 The dataset comprises 30,000 pairs of text data with labels. 
     In the preprocessing stage, any NA values within the text columns were replaced with empty strings to maintain data integrity. 
     Each text pair has gone through a specified index truncation and padding process to align with the input requirements of the model. 
-    Subsequently, these processed text pairs were tokenized using the DistilBERT tokenizer, ensuring that the inputs are in the correct format for the DistilBERT model to encode.
+    Subsequently, these processed text pairs were tokenized using the DistilBERT tokenizer, ensuring that the inputs are in the correct format for the DistilBERT model to encode. 
     
 
 ### Training Procedure
@@ -66,16 +70,18 @@ The dataset comprises 30,000 pairs of text data with labels.
       - train_batch_size: 32
       - eval_batch_size: 32
       - seed: 42
-      - num_epochs: 5
+      - num_epochs: 10
+      
 
 #### Speeds, Sizes, Times
 
 <!-- This section provides information about how roughly how long it takes to train the model and the size of the resulting model. -->
 
 
-      - overall training time: 1 hour
-      - duration per training epoch: 12 minutes
-      - model size: 255.4MB
+        - overall training time: 1 hour
+        - duration per training epoch: 12 minutes
+        - model size: 255.4MB
+    
 
 ## Evaluation
 
@@ -87,7 +93,8 @@ The dataset comprises 30,000 pairs of text data with labels.
 
 <!-- This should describe any evaluation data used (e.g., the development/validation set provided). -->
 
-The model's performance was evaluated using a development dataset consisting of 3,000 text pairs, distinct from the training dataset. 
+
+    The model's performance was evaluated using a development dataset consisting of 3,000 text pairs, distinct from the training dataset. 
     Similar to the training set, any NA values within the text columns of the development data were filled with empty strings to ensure consistency of the data. 
     Then, this development set were used to evaluate its efficacy in authorship verification of the model.
     
@@ -101,6 +108,7 @@ The model's performance was evaluated using a development dataset consisting of 
       - Precision: 0.7320841551610783
       - Recall: 0.7396213882431086
       - F1 Score: 0.7358334710061126
+      
 
 ### Results
 
@@ -126,7 +134,8 @@ The model obtained an F1-score of 73.5% and an accuracy of 73.5% for predicting 
 
 <!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
-Any text data longer than 512 subwords will be truncated by the model. 
+
+    Any text data longer than 512 subwords will be truncated by the model. 
     The model's training corpus may not cover the extensive range of linguistic nuances across different authorship styles, which may lead to biases in prediction.
     
 
@@ -136,3 +145,4 @@ Any text data longer than 512 subwords will be truncated by the model.
 
 The hyperparameters were determined by experimentation
       with different values.
+      
