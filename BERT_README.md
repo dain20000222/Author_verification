@@ -7,7 +7,7 @@ Group21
 ## Project Overview
 This project is part of the COMP34812 coursework, focusing on the Authorship Verification (AV) task. We employ deep learning-based approaches underpinned by transformer architectures, specifically using a DistilBERT model to determine if two text sequences are written by the same author.
 
-## Attrubution
+## Attribution
 ### Data Sources 
 **Training and Development Data**: Provided exclusively for the COMP34812 coursework, encompassing 30K training pairs and 6K development pairs. These data are specifically structured for the AV task and have been preprocessed accordingly to fit the input requirements of the BERT models.
 
