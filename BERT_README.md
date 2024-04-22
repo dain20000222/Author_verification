@@ -5,7 +5,7 @@ Group21
 - Minjun Choi
 
 ## Project Overview
-This project is part of the COMP34812 coursework, focusing on the Authorship Verification (AV) task. We employ deep learning-based approaches underpinned by transformer architectures, specifically using a BERT model to determine if two text sequences are written by the same author.
+This project is part of the COMP34812 coursework, focusing on the Authorship Verification (AV) task. We employ deep learning-based approaches underpinned by transformer architectures, specifically using a DistilBERT model to determine if two text sequences are written by the same author.
 
 ## Attrubution
 ### Data Sources 
