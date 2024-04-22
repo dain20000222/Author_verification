@@ -13,9 +13,7 @@ repo: https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?u
 
 <!-- Provide a quick summary of what the model is/does. -->
 
-This model employs GRU-based approach for authorship verification, determining if two text samples are written by the same author. 
-    Utilizing the Natural language understanding using pre-trained GloVe embeddings and a GRU architecture to capture and analyze sequence data effectively.
-    
+The GRU (Gated Recurrent Unit) model employed for Authorship Verification is designed to analyze textual data and determine if two text samples are written by the same author. This model utilizes a sequence-based deep learning approach, leveraging GRU layers to capture and analyze the temporal dependencies in text.  .
 
 
 ## Model Details
