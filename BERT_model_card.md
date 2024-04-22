@@ -5,7 +5,7 @@ language: en
 license: cc-by-4.0
 tags:
 - text-classification
-repo: https://github.com/dain20000222/Author_verification
+repo: https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?usp=drive_link
 
 ---
 
