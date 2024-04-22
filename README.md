@@ -9,7 +9,7 @@ This project is part of the COMP34812 coursework, focusing on the Authorship Ver
 
 ## Attribution
 ### Data Sources 
-**Training and Development Data**: Provided exclusively for the COMP34812 coursework, encompassing 30K training pairs and 6K development pairs.
+- **Training and Development Data**: Provided exclusively for the COMP34812 coursework, encompassing 30K training pairs and 6K development pairs.
 
 These data are specifically structured for the AV task and have been preprocessed accordingly to fit the input requirements of the GRU and BERT models respectively.
 
