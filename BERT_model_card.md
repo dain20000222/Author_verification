@@ -14,8 +14,8 @@ repo: https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?u
 <!-- Provide a quick summary of what the model is/does. -->
 
 
-    This model employs a BERT-based approach for authorship verification, determining if two text samples are authored by the same person. 
-    Utilizing the inherent language understanding capabilities of BERT, coupled with cosine similarity measures, the model provides a nuanced assessment of authorship.
+This model employs a BERT-based approach for authorship verification, determining if two text samples are authored by the same person. 
+Utilizing the inherent language understanding capabilities of BERT, coupled with cosine similarity measures, the model provides a nuanced assessment of authorship.
     
 
 
@@ -26,7 +26,7 @@ repo: https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?u
 <!-- Provide a longer summary of what this model is. -->
 
 
-    We fine-tuned a distilBERT Base model to classify pairs of texts for authorship verification. 
+We fine-tuned a distilBERT Base model to classify pairs of texts for authorship verification. 
 The model encodes texts to generate embeddings, which are then compared for similarity. 
 A sigmoid activation function is applied to the output of a dense layer to provide a similarity score.
 This model is based upon a BERT model that was fine-tuned on 60K pairs of  training text data.
@@ -52,9 +52,9 @@ This model is based upon a BERT model that was fine-tuned on 60K pairs of  train
 <!-- This is a short stub of information on the training data that was used, and documentation related to data pre-processing or additional filtering (if applicable). -->
 
 The dataset comprises 30,000 pairs of text data with labels. 
-    In the preprocessing stage, any NA values within the text columns were replaced with empty strings to maintain data integrity. 
-    Each text pair has gone through a specified index truncation and padding process to align with the input requirements of the model. 
-    Subsequently, these processed text pairs were tokenized using the DistilBERT tokenizer, ensuring that the inputs are in the correct format for the DistilBERT model to encode. 
+In the preprocessing stage, any NA values within the text columns were replaced with empty strings to maintain data integrity. 
+Each text pair has gone through a specified index truncation and padding process to align with the input requirements of the model. 
+Subsequently, these processed text pairs were tokenized using the DistilBERT tokenizer, ensuring that the inputs are in the correct format for the DistilBERT model to encode. 
     
 
 ### Training Procedure
@@ -94,9 +94,9 @@ The dataset comprises 30,000 pairs of text data with labels.
 <!-- This should describe any evaluation data used (e.g., the development/validation set provided). -->
 
 
-    The model's performance was evaluated using a development dataset consisting of 3,000 text pairs, distinct from the training dataset. 
-    Similar to the training set, any NA values within the text columns of the development data were filled with empty strings to ensure consistency of the data. 
-    Then, this development set were used to evaluate its efficacy in authorship verification of the model.
+The model's performance was evaluated using a development dataset consisting of 3,000 text pairs, distinct from the training dataset. 
+Similar to the training set, any NA values within the text columns of the development data were filled with empty strings to ensure consistency of the data. 
+Then, this development set were used to evaluate its efficacy in authorship verification of the model.
     
 
 #### Metrics
@@ -135,14 +135,13 @@ The model obtained an F1-score of 73.5% and an accuracy of 73.5% for predicting 
 <!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
 
-    Any text data longer than 512 subwords will be truncated by the model. 
-    The model's training corpus may not cover the extensive range of linguistic nuances across different authorship styles, which may lead to biases in prediction.
+Any text data longer than 512 subwords will be truncated by the model. 
+The model's training corpus may not cover the extensive range of linguistic nuances across different authorship styles, which may lead to biases in prediction.
     
 
 ## Additional Information
 
 <!-- Any other information that would be useful for other people to know. -->
 
-The hyperparameters were determined by experimentation
-      with different values.
+The hyperparameters were determined by experimentation with different values.
       
