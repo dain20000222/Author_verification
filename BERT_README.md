@@ -24,10 +24,6 @@ The Authorship Verification model uses a dual BERT architecture to encode two pi
 
 4. **Compute distance metric**: The encodings for Text 1 and Text 2 are compared using a distance metric, outputting a score between 0 and 1. A score closer to 1 suggests that the texts were likely written by the same author, while a score closer to 0 suggests different authors.
 
-The architecture diagram below illustrates the process:
-
-![Architecture for our model](BERT_AV_arch.jpg)
-
 
 ## Getting Started
 ### Prerequisites
