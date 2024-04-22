@@ -34,6 +34,7 @@ Ensure you have Python installed on your system. This project is tested on Pytho
 pip install pandas numpy tensorflow nltk scikit-learn
 ```
 You must download the glove.6B.100d.txt file for the Glove embedding from [Here](https://www.kaggle.com/datasets/sawarn69/glove6b100dtxt )
+
 To train the GRU Authorship Verification model can be executed using the gru_train.ipynb Jupyter notebook.
 
 
