@@ -23,7 +23,7 @@ Utilizing the inherent language understanding capabilities of BERT, coupled with
 
 <!-- Provide a longer summary of what this model is. -->
 
-We fine-tuned a distilBERT Base model to classify pairs of texts for authorship verification. 
+We fine-tuned a distilbert-base-uncased model to classify pairs of texts for authorship verification. 
 The model encodes texts to generate embeddings, which are then compared for similarity. 
 A sigmoid activation function is applied to the output of a dense layer to provide a similarity score.
 This model is based upon a BERT model that was fine-tuned on 60K pairs of  training text data.
@@ -66,16 +66,16 @@ The dataset comprises 30,000 pairs of text data with labels.
       - train_batch_size: 32
       - eval_batch_size: 32
       - seed: 42
-      - num_epochs: 10
+      - num_epochs: 5
 
 #### Speeds, Sizes, Times
 
 <!-- This section provides information about how roughly how long it takes to train the model and the size of the resulting model. -->
 
 
-      - overall training time: 3 hours
-      - duration per training epoch: 25 minutes
-      - model size: 254MB
+      - overall training time: 1 hour
+      - duration per training epoch: 12 minutes
+      - model size: 255.4MB
 
 ## Evaluation
 
