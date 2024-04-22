@@ -28,31 +28,26 @@ You can download and use the models from the following link:
 #### Prerequisites
 Ensure you have Python installed on your system. This project is tested on Python 3.8+. You can download it from [Here](python.org).
 
-#### GRU model
+#### Training GRU model
 - Installation and Setup for GRU Authorship Verification Model
 ```bash
 pip install pandas numpy tensorflow nltk scikit-learn
 ```
-- Running the Code
-The Authorship Verification model can be executed using the gru_train.ipynb Jupyter notebook. To do so, follow these steps:
+You must download the glove.6B.100d.txt file for the Glove embedding from [Here](https://www.kaggle.com/datasets/sawarn69/glove6b100dtxt )
+To train the GRU Authorship Verification model can be executed using the gru_train.ipynb Jupyter notebook.
 
-1. Open the gru_train.ipynb notebook in a Jupyter environment.
-2. Ensure that all required libraries are installed. If not, install them using the notebook by running
-3. Execute the cells in the notebook in order. The notebook will prompt you for the paths to the input text files.
-4. Provide the paths to the text files when prompted, and the notebook will output the similarity score and authorship decision.
 
-#### BERT model
+
+#### Training BERT model
 - Installation and Setup for BERT Authorship Verification Model
 ```bash
 pip install torch pandas transformers scikit-learn
 ```
-- Running the Code
-The Authorship Verification model can be executed using the bert.ipynb Jupyter notebook. To do so, follow these steps:
+The Authorship Verification model can be executed using the bert_train.ipynb Jupyter notebook.
 
-1. Open the bert.ipynb notebook in a Jupyter environment.
-2. Ensure that all required libraries are installed. If not, install them using the notebook by running.
-3. Execute the cells in the notebook in order. The notebook will prompt you for the paths to the input text files.
-4. Provide the paths to the text files when prompted, and the notebook will output the similarity score and authorship decision.
+
+#### Running the demo code
+
 
 
 ## References
