@@ -14,12 +14,46 @@ This project is part of the COMP34812 coursework, focusing on the Authorship Ver
 ### Inspirational Sources
 - **Research Paper**: This implementation is inspired by the findings in [Deep learning based authorship identification](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2760185.pdf) and [Siamese BERT for Authorship Verification](http://ceur-ws.org/Vol-2936/paper-193.pdf).
 
-## Model Links
+## Code base
+
+### Model Links
 Our trained models are stored on cloud platforms to ensure easy accessibility and reproducibility. 
 All files used in this coursework can be found at [NLU Courswork Drive](https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?usp=drive_link)
+
 You can download and use the models from the following link:
 - [GRU Authorship Verification Model](https://drive.google.com/file/d/1zEJXRFZe2_wmbCekr_Vvbf-5jsZ5GOwB/view?usp=drive_link) 
 - [BERT Authorship Verification Model](https://drive.google.com/file/d/1oRUNyWGEJNvp8yqb3xJxOA_5edK1Kyan/view?usp=drive_link) 
+
+### Running the Code
+#### Prerequisites
+Ensure you have Python installed on your system. This project is tested on Python 3.8+. You can download it from [Here](python.org).
+
+#### GRU model
+- Installation and Setup for GRU Authorship Verification Model
+```bash
+pip install pandas numpy tensorflow nltk scikit-learn
+```
+- Running the Code
+The Authorship Verification model can be executed using the gru_train.ipynb Jupyter notebook. To do so, follow these steps:
+
+1. Open the gru_train.ipynb notebook in a Jupyter environment.
+2. Ensure that all required libraries are installed. If not, install them using the notebook by running
+3. Execute the cells in the notebook in order. The notebook will prompt you for the paths to the input text files.
+4. Provide the paths to the text files when prompted, and the notebook will output the similarity score and authorship decision.
+
+#### BERT model
+- Installation and Setup for BERT Authorship Verification Model
+```bash
+pip install torch pandas transformers scikit-learn
+```
+- Running the Code
+The Authorship Verification model can be executed using the bert.ipynb Jupyter notebook. To do so, follow these steps:
+
+1. Open the bert.ipynb notebook in a Jupyter environment.
+2. Ensure that all required libraries are installed. If not, install them using the notebook by running.
+3. Execute the cells in the notebook in order. The notebook will prompt you for the paths to the input text files.
+4. Provide the paths to the text files when prompted, and the notebook will output the similarity score and authorship decision.
+
 
 ## References
 This project utilizes concepts from the following sources:
