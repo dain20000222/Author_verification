@@ -15,9 +15,10 @@ This project is part of the COMP34812 coursework, focusing on the Authorship Ver
 - **Research Paper**: This implementation is inspired by the findings in [Deep learning based authorship identification](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2760185.pdf) by Chen Qian et. al and 
  [Siamese BERT for Authorship Verification](http://ceur-ws.org/Vol-2936/paper-193.pdf) by Jacob Tyo et al. These paper detail the use of Siamese network structures with GRU and BERT for effective authorship verification.
 
-
 ## Model Links
-Our trained models are stored on cloud platforms to ensure easy accessibility and reproducibility. You can download and use the models from the following link:
+Our trained models are stored on cloud platforms to ensure easy accessibility and reproducibility. 
+All files used in this coursework can be found at [NLU Courswork Drive](https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?usp=drive_link)
+You can download and use the models from the following link:
 - [GRU Authorship Verification Model](https://drive.google.com/file/d/1zEJXRFZe2_wmbCekr_Vvbf-5jsZ5GOwB/view?usp=drive_link) 
 - [BERT Authorship Verification Model](https://drive.google.com/file/d/1oRUNyWGEJNvp8yqb3xJxOA_5edK1Kyan/view?usp=drive_link) 
 
