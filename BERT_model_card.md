@@ -14,7 +14,7 @@ repo: https://github.com/dain20000222/Author_verification
 <!-- Provide a quick summary of what the model is/does. -->
 
 This model employs a BERT-based approach for authorship verification, determining if two text samples are authored by the same person. 
-Utilizing the inherent language understanding capabilities of BERT, coupled with cosine similarity measures, the model provides a nuanced assessment of authorship.
+Utilizing the inherent language understanding capabilities of BERT, coupled with distance metric, the model provides a nuanced assessment of authorship.
 
 
 ## Model Details
