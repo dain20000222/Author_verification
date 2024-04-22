@@ -15,7 +15,7 @@ repo: https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?u
 
 
     This model employs a BERT-based approach for authorship verification, determining if two text samples are authored by the same person. 
-Utilizing the inherent language understanding capabilities of BERT, coupled with cosine similarity measures, the model provides a nuanced assessment of authorship.
+    Utilizing the inherent language understanding capabilities of BERT, coupled with cosine similarity measures, the model provides a nuanced assessment of authorship.
     
 
 
