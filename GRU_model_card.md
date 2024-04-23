@@ -23,12 +23,12 @@ The GRU (Gated Recurrent Unit) model employed for Authorship Verification is des
 <!-- Provide a longer summary of what this model is. -->
 
 
-    This GRU model is developed for the Authorship Verification (AV) task. It uses a sophisticated deep learning approach that operates without relying on transformer architectures. 
-    Before the training, the paired text data are concatenated.
-    The concatenated data is then embedded into a dense vector space through a pre-initialized Glove embeddings.
-    Following the embedding layer, a GRU layer tracks and learns the sequential dependencies present in the merged text.
-    The GRU's output is then condensed via global average pooling into a singular vector.
-    Finally, the model incorporates a dense network with a regularization dropout layer, culminating in a sigmoid activation function that yields the probability of the texts having a common author.
+This GRU model is developed for the Authorship Verification (AV) task. It uses a sophisticated deep learning approach that operates without relying on transformer architectures. 
+Before the training, the paired text data are concatenated.
+The concatenated data is then embedded into a dense vector space through a pre-initialized Glove embeddings.
+Following the embedding layer, a GRU layer tracks and learns the sequential dependencies present in the merged text.
+The GRU's output is then condensed via global average pooling into a singular vector.
+Finally, the model incorporates a dense network with a regularization dropout layer, culminating in a sigmoid activation function that yields the probability of the texts having a common author.
     
 
 - **Developed by:** Da In Kim and Minjun Choi
@@ -51,11 +51,11 @@ The GRU (Gated Recurrent Unit) model employed for Authorship Verification is des
 <!-- This is a short stub of information on the training data that was used, and documentation related to data pre-processing or additional filtering (if applicable). -->
 
 The dataset comprises 30,000 pairs of text data with labels. 
-    In the preprocessing stage, the training undergoes through a cleaning and preparation. 
-    Initially, all text entries are converted to string format, normalized to lowercase, and stripped of punctuation to ensure uniformity.
-    This is followed by the removal of English stop words to distill the content to its most informative elements. Consecutive stages involve eliminating extra whitespace, resulting in a clean and concise dataset. 
-    For each record, the cleaned versions of text pairs (Text 1 and Text 2) are concatenated into a single sequence.
-    A tokenizer is then employed to convert the textual data into tokens, which are then subsequently padded to a calculated optimal length. 
+In the preprocessing stage, the training undergoes through a cleaning and preparation. 
+Initially, all text entries are converted to string format, normalized to lowercase, and stripped of punctuation to ensure uniformity.
+This is followed by the removal of English stop words to distill the content to its most informative elements. Consecutive stages involve eliminating extra whitespace, resulting in a clean and concise dataset. 
+For each record, the cleaned versions of text pairs (Text 1 and Text 2) are concatenated into a single sequence.
+A tokenizer is then employed to convert the textual data into tokens, which are then subsequently padded to a calculated optimal length. 
     
 
 ### Training Procedure
@@ -95,8 +95,8 @@ The dataset comprises 30,000 pairs of text data with labels.
 <!-- This should describe any evaluation data used (e.g., the development/validation set provided). -->
 
 The model's performance was evaluated using a development dataset consisting of 3,000 text pairs, distinct from the training dataset. 
-    This dataset undergoes the same preprocessing protocol as the training data, including standardization of text to lowercase, removal of punctuation and stopwords, and whitespace normalization.
-    This ensures that the model is assessed under consistent conditions, allowing for a reliable measurement of its performance in authorship verification tasks.
+This dataset undergoes the same preprocessing protocol as the training data, including standardization of text to lowercase, removal of punctuation and stopwords, and whitespace normalization.
+This ensures that the model is assessed under consistent conditions, allowing for a reliable measurement of its performance in authorship verification tasks.
     
 
 #### Metrics
@@ -134,14 +134,13 @@ The model obtained an F1-score of 73.5% and an accuracy of 73.5% for predicting 
 <!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
 
-    The preprocessing pads all text data to an optimal maximum length, which may not fully capture the complexity and variety of longer text entries.  
-    The model's training corpus may not cover the extensive range of linguistic nuances across different authorship styles, which may lead to biases in prediction.
+The preprocessing pads all text data to an optimal maximum length, which may not fully capture the complexity and variety of longer text entries.  
+The model's training corpus may not cover the extensive range of linguistic nuances across different authorship styles, which may lead to biases in prediction.
     
 
 ## Additional Information
 
 <!-- Any other information that would be useful for other people to know. -->
 
-The hyperparameters were determined by experimentation
-      with different values. This model leverages the glove.6B.100d.txt for its embeddings.
+The hyperparameters were determined by experimentation with different values. This model leverages the glove.6B.100d.txt for its embeddings.
       
