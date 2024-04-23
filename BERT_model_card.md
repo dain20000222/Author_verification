@@ -113,7 +113,7 @@ Then, this development set were used to evaluate its efficacy in authorship veri
 
 ### Results
 
-The model obtained an F1-score of 73.5% and an accuracy of 73.5% for predicting the labels of development data
+The model obtained an F1-score of 73.6% and an accuracy of 73.4% for predicting the labels of development data
 
 ## Technical Specifications
 
