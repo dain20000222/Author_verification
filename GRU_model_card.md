@@ -28,7 +28,7 @@ Before the training, the paired text data are concatenated.
 The concatenated data is then embedded into a dense vector space through a pre-initialized Glove embeddings.
 Following the embedding layer, a GRU layer tracks and learns the sequential dependencies present in the merged text.
 The GRU's output is then condensed via global average pooling into a singular vector.
-Finally, the model incorporates a dense network with a regularization dropout layer, culminating in a sigmoid activation function that yields the probability of the texts having a common author.
+Finally, the model incorporates a dense network with a dropout layer, culminating in a sigmoid activation function that yields the probability of the texts having a common author.
     
 
 - **Developed by:** Da In Kim and Minjun Choi
