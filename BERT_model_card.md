@@ -31,7 +31,6 @@ The model processes two textual inputs, extracting rich contextual embeddings fr
 Mean pooling is employed to average the embeddings while considering the attention mask, ensuring that only the relevant tokens contribute to the final representation.
 The resultant vector pass through a dense layer, culmulating a distnace metric that informs the likelihood of shared authorship.
 Finally, the sigmoid function condenses this into a binary output reflecting the authorship similarity.
-This model is based upon a BERT model that was fine-tuned on 60K pairs of  training text data.
     
 
 - **Developed by:** Da In Kim and Minjun Choi
