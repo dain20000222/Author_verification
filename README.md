@@ -27,7 +27,7 @@ You can download and use the models from the following link:
 - [GRU Authorship Verification Model](https://drive.google.com/file/d/1zEJXRFZe2_wmbCekr_Vvbf-5jsZ5GOwB/view?usp=drive_link) 
 - [BERT Authorship Verification Model](https://drive.google.com/file/d/1oRUNyWGEJNvp8yqb3xJxOA_5edK1Kyan/view?usp=drive_link) 
 
----
+- - - 
 
 ### Training the models
 #### Prerequisites
@@ -49,7 +49,7 @@ pip install torch pandas transformers scikit-learn
 ```
 - Training the BERT AV model can be executed by running each cell in order from the *bert_train.ipynb* Jupyter notebook.
 
----
+- - - 
 
 ### Running the Demo Code
 #### Running the GRU model demo
