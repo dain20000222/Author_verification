@@ -35,7 +35,7 @@ pip install pandas numpy tensorflow nltk scikit-learn
 ```
 You must download the glove.6B.100d.txt file for the Glove embedding from [Here](https://www.kaggle.com/datasets/sawarn69/glove6b100dtxt )
 
-To train the GRU Authorship Verification model run the gru_train.ipynb Jupyter notebook.
+Training the GRU Authorship Verification model can be executed by running each cell in order from the gru_train.ipynb Jupyter notebook.
 
 
 
@@ -44,7 +44,7 @@ To train the GRU Authorship Verification model run the gru_train.ipynb Jupyter n
 ```bash
 pip install torch pandas transformers scikit-learn
 ```
-Training the Authorship Verification model can be executed by each cell in order of the bert_train.ipynb Jupyter notebook.
+Training the BERT Authorship Verification model can be executed by running each cell in order from the bert_train.ipynb Jupyter notebook.
 
 
 #### Running the demo code
