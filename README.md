@@ -1,6 +1,6 @@
 # Authorship Verification using GRU and BERT
 
-Group21
+**Group21**
 - Da In Kim
 - Minjun Choi
 
