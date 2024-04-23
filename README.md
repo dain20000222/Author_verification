@@ -26,7 +26,7 @@ You can download and use the models from the following link:
 
 ### Training the models
 #### Prerequisites
-Ensure you have Python installed on your system. This project is tested on Python 3.8+. You can download it from [Here](python.org).
+Ensure you have Python installed on your system. This project is tested on Python 3.8+.
 
 #### Training GRU model
 - Installation and Setup for GRU Authorship Verification Model
