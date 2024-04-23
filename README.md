@@ -52,7 +52,7 @@ Download the demo code from this link: [GRU Demo code](https://colab.research.go
 After the setup for the GRU Authorship Verification Model, run each cell in order from the gru_demo.ipynb Jupyter notebook.
 
 #### Running the BERT model demo
-Download the demo code from this link: [BERT Demo code]()
+Download the demo code from this link: [BERT Demo code](https://drive.google.com/file/d/19Cx_vW4PAxFav6Q_rudF5_ZK9rE4QleD/view?usp=drive_link)
 After the setup for the GRU Authorship Verification Model, run each cell in order from the bert_demo.ipynb Jupyter notebook.
 
 
