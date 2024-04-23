@@ -53,10 +53,10 @@ pip install torch pandas transformers scikit-learn
 
 ### Running the Demo Code
 #### Running the GRU model demo
-After the setup for the GRU AV Model, run each cell in order from the *gru_demo.ipynb* Jupyter notebook.
+- After the setup for the GRU AV Model, run each cell in order from the *gru_demo.ipynb* Jupyter notebook.
 
 #### Running the BERT model demo
-After the setup for the BERT AV Model, run each cell in order from the *bert_demo.ipynb* Jupyter notebook.
+- After the setup for the BERT AV Model, run each cell in order from the *bert_demo.ipynb* Jupyter notebook.
 
 ## References
 This project utilizes concepts from the following sources:
