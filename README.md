@@ -36,7 +36,7 @@ You can download and use the models from the following link:
 #### Training GRU model
 - Installation and Setup for GRU Authorship Verification Model
 ```bash
-pip install pandas numpy tensorflow nltk scikit-learn
+pip install pandas numpy tensorflow nltk scikit-learn pickle
 ```
 - You must download the glove.6B.100d.txt file for the Glove embedding from [Here](https://www.kaggle.com/datasets/sawarn69/glove6b100dtxt )
 
