@@ -18,6 +18,7 @@ This project is part of the COMP34812 coursework, focusing on the Authorship Ver
 
 ### Model Links
 Our trained models are stored on cloud platforms to ensure easy accessibility and reproducibility. 
+
 All files used in this coursework can be found at [NLU Courswork Drive](https://drive.google.com/drive/folders/1ftMmPac1U5CRPaPnI1JeFb1Tkt4_6Gs1?usp=drive_link).
 
 You can download and use the models from the following link:
