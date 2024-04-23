@@ -26,7 +26,7 @@ Utilizing the inherent language understanding capabilities of BERT, coupled with
 <!-- Provide a longer summary of what this model is. -->
 
 
-We fine-tuned a distilBERT Base model to classify pairs of texts for authorship verification. 
+We fine-tuned a distilBERT Base model within a Siamese framework to classify pairs of texts for authorship verification. 
 The model encodes texts to generate embeddings, which are then compared for similarity. 
 A sigmoid activation function is applied to the output of a dense layer to provide a similarity score.
 This model is based upon a BERT model that was fine-tuned on 60K pairs of  training text data.
