@@ -112,7 +112,7 @@ This ensures that the model is assessed under consistent conditions, allowing fo
 
 ### Results
 
-The model obtained an F1-score of 60.4% and an accuracy of 57.9% for predicting the labels of development data
+The model obtained an F1-score of 56.6% and an accuracy of 57.8% for predicting the labels of development data
 
 ## Technical Specifications
 
