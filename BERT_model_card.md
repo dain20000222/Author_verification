@@ -26,9 +26,11 @@ Utilizing the inherent language understanding capabilities of BERT, coupled with
 <!-- Provide a longer summary of what this model is. -->
 
 
-We fine-tuned a distilBERT Base model within a Siamese framework to classify pairs of texts for authorship verification. 
-The model encodes texts to generate embeddings, which are then compared for similarity. 
-A sigmoid activation function is applied to the output of a dense layer to provide a similarity score.
+We fine-tuned a distilBERT Base model within a Siamese framework to classify pairs of texts for authorship verification.
+The model processes two textual inputs, extracting rich contextual embeddings from BERT's transformer layers.
+Mean pooling is employed to average the embeddings while considering the attention mask, ensuring that only the relevant tokens contribute to the final representation.
+The resultant vector pass through a dense layer, culmulating a distnace metric that informs the likelihood of shared authorship.
+Finally, the sigmoid function condenses this into a binary output reflecting the authorship similarity.
 This model is based upon a BERT model that was fine-tuned on 60K pairs of  training text data.
     
 
