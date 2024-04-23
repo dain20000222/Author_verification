@@ -80,8 +80,8 @@ A tokenizer is then employed to convert the textual data into tokens, which are 
 <!-- This section provides information about how roughly how long it takes to train the model and the size of the resulting model. -->
 
 
-      - overall training time: 3 minutes
-      - duration per training epoch: 11 seconds
+      - overall training time: 2 minutes
+      - duration per training epoch: 9.82 seconds
       - model size: 53.4MB
 
 ## Evaluation
