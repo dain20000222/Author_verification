@@ -70,7 +70,7 @@ Subsequently, these processed text pairs were tokenized using the DistilBERT tok
       - train_batch_size: 32
       - eval_batch_size: 32
       - seed: 42
-      - num_epochs: 10
+      - num_epochs: 5
       
 
 #### Speeds, Sizes, Times
