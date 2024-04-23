@@ -104,10 +104,10 @@ This ensures that the model is assessed under consistent conditions, allowing fo
 <!-- These are the evaluation metrics being used. -->
 
 
-      - Accuracy: 0.5795
-      - Precision: 0.5724465558194775
-      - Recall: 0.6403188309531717
-      - F1 Score: 0.6044834613575796
+      - Accuracy: 0.5666666666666667
+      - Precision: 0.6406570841889117
+      - Recall: 0.31086017934241117
+      - F1 Score: 0.4186046511627907
       
 
 ### Results
