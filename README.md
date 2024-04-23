@@ -35,7 +35,7 @@ pip install pandas numpy tensorflow nltk scikit-learn
 ```
 You must download the glove.6B.100d.txt file for the Glove embedding from [Here](https://www.kaggle.com/datasets/sawarn69/glove6b100dtxt )
 
-Training the GRU Authorship Verification model can be executed by running each cell in order from the gru_train.ipynb Jupyter notebook.
+Training the GRU Authorship Verification model can be executed by running each cell in order from the *gru_train.ipynb* Jupyter notebook.
 
 
 
@@ -44,16 +44,16 @@ Training the GRU Authorship Verification model can be executed by running each c
 ```bash
 pip install torch pandas transformers scikit-learn
 ```
-Training the BERT Authorship Verification model can be executed by running each cell in order from the bert_train.ipynb Jupyter notebook.
+Training the BERT Authorship Verification model can be executed by running each cell in order from the *bert_train.ipynb* Jupyter notebook.
 
 ### Running the Demo Code
 #### Running the GRU model demo
 Download the demo code from this link: [GRU Demo code](https://colab.research.google.com/drive/1W384BfEM1-e8MzlgaZ9GYK2eiZSnFKpE?ouid=112259803509344167274&usp=drive_link) 
-After the setup for the GRU Authorship Verification Model, run each cell in order from the gru_demo.ipynb Jupyter notebook.
+After the setup for the GRU Authorship Verification Model, run each cell in order from the *gru_demo.ipynb* Jupyter notebook.
 
 #### Running the BERT model demo
 Download the demo code from this link: [BERT Demo code](https://drive.google.com/file/d/19Cx_vW4PAxFav6Q_rudF5_ZK9rE4QleD/view?usp=drive_link)
-After the setup for the GRU Authorship Verification Model, run each cell in order from the bert_demo.ipynb Jupyter notebook.
+After the setup for the GRU Authorship Verification Model, run each cell in order from the *bert_demo.ipynb* Jupyter notebook.
 
 
 
