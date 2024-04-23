@@ -94,7 +94,7 @@ A tokenizer is then employed to convert the textual data into tokens, which are 
 
 <!-- This should describe any evaluation data used (e.g., the development/validation set provided). -->
 
-The model's performance was evaluated using a development dataset consisting of 3,000 text pairs, distinct from the training dataset. 
+The model's performance was evaluated using a development dataset consisting of 6,000 text pairs, distinct from the training dataset. 
 This dataset undergoes the same preprocessing protocol as the training data, including standardization of text to lowercase, removal of punctuation and stopwords, and whitespace normalization.
 This ensures that the model is assessed under consistent conditions, allowing for a reliable measurement of its performance in authorship verification tasks.
     
