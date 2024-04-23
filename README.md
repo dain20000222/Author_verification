@@ -36,16 +36,16 @@ Ensure you have Python installed on your system. This project is tested on Pytho
 ```bash
 pip install pandas numpy tensorflow nltk scikit-learn
 ```
-You must download the glove.6B.100d.txt file for the Glove embedding from [Here](https://www.kaggle.com/datasets/sawarn69/glove6b100dtxt )
+- You must download the glove.6B.100d.txt file for the Glove embedding from [Here](https://www.kaggle.com/datasets/sawarn69/glove6b100dtxt )
 
-Training the GRU AV model can be executed by running each cell in order from the *gru_train.ipynb* Jupyter notebook.
+- Training the GRU AV model can be executed by running each cell in order from the *gru_train.ipynb* Jupyter notebook.
 
 #### Training BERT model
 - Installation and Setup for BERT Authorship Verification Model
 ```bash
 pip install torch pandas transformers scikit-learn
 ```
-Training the BERT AV model can be executed by running each cell in order from the *bert_train.ipynb* Jupyter notebook.
+- Training the BERT AV model can be executed by running each cell in order from the *bert_train.ipynb* Jupyter notebook.
 
 ### Running the Demo Code
 #### Running the GRU model demo
@@ -53,8 +53,6 @@ After the setup for the GRU AV Model, run each cell in order from the *gru_demo.
 
 #### Running the BERT model demo
 After the setup for the BERT AV Model, run each cell in order from the *bert_demo.ipynb* Jupyter notebook.
-
-
 
 ## References
 This project utilizes concepts from the following sources:
