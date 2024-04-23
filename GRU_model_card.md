@@ -134,8 +134,7 @@ The model obtained an F1-score of 60.4% and an accuracy of 57.9% for predicting 
 <!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
 
-The preprocessing pads all text data to an optimal maximum length, which may not fully capture the complexity and variety of longer text entries.  
-The model's training corpus may not cover the extensive range of linguistic nuances across different authorship styles, which may lead to biases in prediction.
+The preprocessing pads all text data to an optimal maximum length, which may not fully capture the complexity and variety of longer text entries. The model's training corpus may not cover the extensive range of linguistic nuances across different authorship styles, which may lead to biases in prediction.
     
 
 ## Additional Information
