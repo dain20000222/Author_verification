@@ -35,7 +35,7 @@ Finally, the model incorporates a dense network with a regularization dropout la
 - **Language(s):** English
 - **Model type:** Supervised
 - **Model architecture:** GRU
-- **Finetuned from model [optional]:** tf.keras.layers.GRU
+- **Finetuned from model [optional]:** NA
 
 ### Model Resources
 
