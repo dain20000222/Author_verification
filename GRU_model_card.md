@@ -70,7 +70,7 @@ A tokenizer is then employed to convert the textual data into tokens, which are 
       - early_stopping_patience: 10
       - learning_rate: 0.001
       - train_batch_size: 32
-      - eval_batch_size: 32
+      - eval_batch_size: NA
       - seed: NA
       - num_epochs: 50
       
