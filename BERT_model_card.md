@@ -95,7 +95,7 @@ Subsequently, these processed text pairs were tokenized using the DistilBERT tok
 <!-- This should describe any evaluation data used (e.g., the development/validation set provided). -->
 
 
-The model's performance was evaluated using a development dataset consisting of 3,000 text pairs, distinct from the training dataset. 
+The model's performance was evaluated using a development dataset consisting of 6,000 text pairs, distinct from the training dataset. 
 Similar to the training set, any NA values within the text columns of the development data were filled with empty strings to ensure consistency of the data. 
 Then, this development set were used to evaluate its efficacy in authorship verification of the model.
     
